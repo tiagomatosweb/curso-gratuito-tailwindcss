@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .laravue {
+        @apply bg-brand-100 font-bold;
+    }
+}
