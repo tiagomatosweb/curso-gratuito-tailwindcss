@@ -1,8 +1,6 @@
-
-
 module.exports = {
   purge: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
@@ -10,6 +8,7 @@ module.exports = {
           100: '#c542f5',
           200: '#9e35c4',
           300: '#6d2487',
+          400: '#331040',
         }
       }
     },
